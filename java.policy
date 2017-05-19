@@ -1,0 +1,6 @@
+grant{
+permission java.util.PropertyPermission "user.dir", "read";
+permission java.util.PropertyPermission "file.separator", "read";
+permission java.net.SocketPermission "*:80", "resolve, connect, accept";
+permission java.io.FilePermission "names.txt", "read";
+};
